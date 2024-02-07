@@ -11,14 +11,6 @@
 
 .home-card-image {
   background: #00285f;
-  width: 100%;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  justify-content: center;
-
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 }
 

@@ -15,3 +15,17 @@ a, a:hover {
     text-decoration: none;
     color: unset;
 }
+
+.base-card {
+   
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    justify-content: center;
+  
+   
+  }
+  
