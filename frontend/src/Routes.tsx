@@ -3,20 +3,17 @@ import Catalog from 'pages/Catalog';
 import Home from 'pages/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-const Routes = () => (
-
-
+const Routs = () => (
   <BrowserRouter>
     <Navbar />
     <Switch>
       <Route path="/" exact>
         <Home />
-     
       </Route>
-      <Route path="/products">
-         <Catalog/>
+      <Route path="/products" >
+        <Catalog />
       </Route>
     </Switch>
   </BrowserRouter>
 );
-export default Routes;
+export default Routs;

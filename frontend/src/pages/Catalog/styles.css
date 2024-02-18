@@ -1,0 +1,53 @@
+    
+.home-card-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 10px 110px;
+  
+ 
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.home-content-button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.home-content-button input{
+    width: 584px;
+    height: 40px;    
+    border-radius: 5px, 0px, 0px, 5px ;
+ 
+  
+}
+
+.home-content-button button{
+width: 174px;
+
+}
+.btn-icon-buscar{
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+   border-radius: 0px, 5px, 5px, 0px ;
+        
+
+}
+
+@media(min-width: 1280px){
+    .container{
+        padding: 10px 80px;
+    }
+}
+
+@media(min-width: 1440px){
+    .container{
+        padding: 10px 170px;
+    }
+}

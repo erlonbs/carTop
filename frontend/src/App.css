@@ -5,6 +5,8 @@
    font-family: 'Roboto', sans-serif;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-bottom: 0;
@@ -29,3 +31,10 @@ a, a:hover {
    
   }
   
+
+  @media(min-width:1280px){
+    .base-card{
+        width: 306px;
+        justify-content: space-around;
+    }
+  }
