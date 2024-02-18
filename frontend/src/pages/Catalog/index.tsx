@@ -4,14 +4,11 @@ import ProductCard from 'components/ProductCard';
 const Catalog = () => {
   return (
     <div className="container my-4 bg-tertiary ">
-      <div className="home-card-button">
-        <div className='home-content-button'>
+      <div className="home-card-button content-busca">
+        <div className="home-content-button">
+          <input placeholder="Digite sua busca"></input>
 
-        <input placeholder="Busca"></input>
-
-        <button className="btn btn-secundary text-center btn-icon-buscar">
-          Buscar
-        </button>
+          <button className="btn btn-secundary text-center">Buscar</button>
         </div>
       </div>
       <div className="row">

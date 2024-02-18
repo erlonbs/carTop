@@ -11,8 +11,10 @@ const ProductCard = () => {
         <h6>Audi Supra TT</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
       </div>
-   
-        <button>Comprar</button>
+          <div className='btn-comprar'>
+        <button className='btn btn-secundary text-center comprar '>Comprar</button>
+
+          </div>
   
       
     </div>

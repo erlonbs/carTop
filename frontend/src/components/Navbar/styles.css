@@ -1,36 +1,35 @@
-.nav-logo-text, .nav-logo-text:hover{
-    color: #00285F;
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
 }
 
-
-.main-nav{
-    min-height: 70px;
-    padding-left: 20px;
+.main-nav {
+  min-height: 70px;
+  padding-left: 20px;
 }
-.main-menu{
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 170px;
+  justify-content: space-between;
+}
+
+.main-menu li {
+  font-weight: 400px;
+}
+
+.main-menu li:hover {
+  font-weight: 700;
+}
+
+.main-menu li a.active {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .content {
     display: flex;
-    font-size: 18px;
-    width: 170px;
-    justify-content: space-between;
-}
-
-.main-menu li{
-    font-weight: 400px;
-}
-
-.main-menu li:hover{
-    font-weight: 700;
-}
-
-.main-menu li a.active{
-    font-weight: 700;
-}
-
-@media (min-width: 768px){
-
-    .content{
-        display: flex;
-       justify-content: flex-end;
-      margin-right: 24px;
-    }
+    justify-content: flex-end;
+    margin-right: 24px;
+  }
 }

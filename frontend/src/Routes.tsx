@@ -10,7 +10,7 @@ const Routs = () => (
       <Route path="/" exact>
         <Home />
       </Route>
-      <Route path="/products" >
+      <Route path="/products"  >
         <Catalog />
       </Route>
     </Switch>
